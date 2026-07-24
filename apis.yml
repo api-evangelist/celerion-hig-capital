@@ -1,8 +1,17 @@
 aid: celerion-hig-capital
 name: Celerion (H.I.G. Capital)
-description: 'Celerion (H.I.G. Capital) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Celerion is a global contract research organization (CRO) specializing
+  in early-stage clinical research, Phase I clinical trials, clinical pharmacology,
+  and bioanalytical services that accelerate drug development from first-in-human
+  studies through proof-of-concept. Headquartered in Lincoln, Nebraska with clinical
+  and bioanalytical sites across North America and Europe, Celerion supports
+  pharmaceutical and biotechnology sponsors with healthy-volunteer and special-population
+  studies, bioanalysis, biomarker assays, ECG/cardiac safety, and its LabNotes
+  bioanalytical data-management software. The company is a portfolio holding of
+  H.I.G. Capital and was surfaced to the API Evangelist network via the
+  bain-capital-ventures portfolio graph. As a corporate/marketing web presence with
+  no public developer or API program, this profile carries only the artifacts that
+  could be observed on the public web (llms.txt, domain-security posture).'
 url: https://raw.githubusercontent.com/api-evangelist/celerion-hig-capital/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.celerion.com/wp-content/uploads/2026/01/LOGO-Dark@2x-withfulltagline.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Clinical Research
+- Contract Research Organization
+- Drug Development
+- Bioanalytical Services
+- Clinical Pharmacology
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.celerion.com/
+- type: Blog
+  url: https://www.celerion.com/blog/
+- type: PrivacyPolicy
+  url: https://www.celerion.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/celerion-hig-capital-llms.txt
+- type: DomainSecurity
+  url: security/celerion-hig-capital-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
